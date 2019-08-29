@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "bundle": "tsc -b src/ && webpack"
+    "bundle": "tsc -b src/ && webpack",
+    "start": "npm run bundle && serve"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "script-loader": "^0.7.2",
+    "serve": "^11.1.0",
     "ts-loader": "^6.0.4",
     "typescript": "^3.5.3",
     "webpack": "^4.39.3"
