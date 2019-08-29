@@ -1,0 +1,17 @@
+{
+  "name": "ts-module-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bundle": "tsc -b src/ && webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "script-loader": "^0.7.2",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
+    "webpack": "^4.39.3"
+  }
+}

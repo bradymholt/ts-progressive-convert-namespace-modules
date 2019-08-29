@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "strict": true,
+    "composite": true,
+    "incremental": true,
+    "outFile": "../dist/script.js"
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["**/*.m.ts"]
+}

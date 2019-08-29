@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "strict": true,
+    "composite": true,
+    "incremental": true,
+    "module": "esnext",
+    "outDir": "../dist/module"
+  },
+  "include": ["**/*.m.ts"],
+  "files": [
+    "./entry.m.ts",
+    // This is needed because ts-loader@6.0.4 does not yet support project references.
+    "../dist/script.d.ts"
+  ],
+  "references": [{ "path": "./tsconfig.json" }]
+}
