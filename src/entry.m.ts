@@ -4,4 +4,4 @@ import { Shark } from "./shark.m";
 Shark.attack();
 
 // Call namcespaced code directly
-acme.Monkey.speak();
+old_school.Monkey.speak();
