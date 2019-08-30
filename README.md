@@ -16,5 +16,6 @@ The npm script "bundle" builds the namespace project which emits the outFile `di
 
 ```
 bite bite bite bite
+bark bark bark bark
 ooh-ooh-ooh-eee-eee
 ```
